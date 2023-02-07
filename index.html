@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <title>Be Mine</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+  <h1>will you be my valentine?</h1>
+  <br>
+  <img src="https://gifdb.com/images/thumbnail/cute-kitty-cat-rxfhhdfepi4k59y9.gif" align="middle" width="266px"
+    height="300px">
+
+  <button id="buttonYes">yes ofc</button>
+  <button id="buttonNo">naur</button>
+
+  <script>
+    document.getElementById('buttonYes').addEventListener('click', function () {
+      alert('AWW <33 I LOVE UUU');
+    });
+    document.getElementById('buttonNo').addEventListener('click', function (e) {
+      alert('how.');
+      console.log(e)
+      e.srcElement.remove()
+    });
+  </script>
+
+  <script src="script.js"></script>
+  <footer>
+    <p>©2023 Sahiti Dasari</p>
+  </footer>
+</body>
+
+</html>

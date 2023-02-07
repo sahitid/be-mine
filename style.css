@@ -1,0 +1,161 @@
+#container-bild {
+  max-width: 100%;
+  max-height: 100%;
+}
+div#sidebar{
+  font-size:95%;
+  float: right;
+  width: 150px;
+  margin-top:20px;
+  padding: 5px 0;
+  margin-bottom: 5px
+  }
+
+h1 {
+  text-align: center;
+  font-size: 32px;
+  font-family: 'Courier', monospace;
+   }
+body {
+  text-align: center;
+  font-size: 32px;
+  font-family: 'Courier', monospace;
+   }
+footer {
+  text-align: center;
+  font-size: 12px;
+  font-family: 'Courier', monospace;
+   }
+
+img {
+  background-color: #000;
+  background-image: none;
+  border: 2px solid #000;
+  border-radius: 4px;
+  box-shadow: #fff 4px 4px 0 0,#000 4px 4px 0 2px;
+  box-sizing: border-box;
+  color: #fff;
+  cursor: pointer;
+  margin: 0 auto;
+  overflow: visible;
+    }
+
+/* no button css*/
+
+#buttonNo {
+  position: absolute;
+  font-family: 'Courier', monospace;
+  top: 80%;
+  left: 35%;
+}
+
+#buttonNo {
+  appearance: button;
+  background-color: #000;
+  background-image: none;
+  border: 1px solid #000;
+  border-radius: 4px;
+  box-shadow: #fff 4px 4px 0 0,#000 4px 4px 0 1px;
+  box-sizing: border-box;
+  color: #fff;
+  cursor: pointer;
+  display: inline-block;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 20px;
+  margin: 0 5px 10px 0;
+  overflow: visible;
+  padding: 12px 40px;
+  text-align: center;
+  text-transform: none;
+  touch-action: manipulation;
+  user-select: none;
+  -webkit-user-select: none;
+  vertical-align: middle;
+  white-space: nowrap;
+
+/*   tej's css */
+  transition: 0.35s top ease, 0.35s left ease;
+}
+
+#buttonNo:focus {
+  text-decoration: none;
+}
+
+#buttonNo:hover {
+  text-decoration: none;
+}
+
+#buttonNo:active {
+  box-shadow: rgba(0, 0, 0, .125) 0 3px 5px inset;
+  outline: 0;
+}
+
+#buttonNo:not([disabled]):active {
+  box-shadow: #fff 2px 2px 0 0, #000 2px 2px 0 1px;
+  transform: translate(2px, 2px);
+}
+
+@media (min-width: 768px) {
+  .buttonNo {
+    padding: 12px 50px;
+  }
+}
+
+/* yes button css*/
+
+#buttonYes {
+  position: absolute;
+  font-family: 'Courier', monospace;
+  top: 80%;
+  left: 55%;
+}
+#buttonYes {
+  appearance: button;
+  background-color: #000;
+  background-image: none;
+  border: 1px solid #000;
+  border-radius: 4px;
+  box-shadow: #fff 4px 4px 0 0,#000 4px 4px 0 1px;
+  box-sizing: border-box;
+  color: #fff;
+  cursor: pointer;
+  display: inline-block;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 20px;
+  margin: 0 5px 10px 0;
+  overflow: visible;
+  padding: 12px 40px;
+  text-align: center;
+  text-transform: none;
+  touch-action: manipulation;
+  user-select: none;
+  -webkit-user-select: none;
+  vertical-align: middle;
+  white-space: nowrap;
+}
+
+#buttonYes:focus {
+  text-decoration: none;
+}
+
+#buttonYes:hover {
+  text-decoration: none;
+}
+
+#buttonYes:active {
+  box-shadow: rgba(0, 0, 0, .125) 0 3px 5px inset;
+  outline: 0;
+}
+
+#buttonYes:not([disabled]):active {
+  box-shadow: #fff 2px 2px 0 0, #000 2px 2px 0 1px;
+  transform: translate(2px, 2px);
+}
+
+@media (min-width: 768px) {
+  .buttonNo {
+    padding: 12px 50px;
+  }
+}
